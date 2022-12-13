@@ -127,7 +127,7 @@ internal class Program
                 default:
                     return;
             }
-            Console.WriteLine("\n\nPress 'D' for Drinks and 'S' for Sweets. 'I' to view inventory. Any other key to quit: ");
+            Console.WriteLine("\n\nPress 'D' for Drinks, 'S' for Sweets and F for Food. 'I' to view inventory. Any other key to quit: ");
             itemType = Console.ReadKey().KeyChar;
 
         }
